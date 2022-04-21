@@ -324,7 +324,7 @@
       "sku": {
         "name": "B_Gen5_2",
         "tier": "Basic",
-        "capacity": 50
+        "capacity": 2
       },
       "properties": {
         "administratorLogin": "[parameters('databaseAdminLoginName')]",
@@ -366,9 +366,9 @@
       "apiVersion": "2017-12-01-preview",
       "location": "[variables('location')]",
       "sku": {
-          "name": "PGSQLB50",
+          "name": "B_Gen5_2",
           "tier": "Basic",
-          "capacity": 50
+          "capacity": 2
       },
       "properties": {
           "administratorLogin": "[parameters('databaseAdminLoginName')]",
